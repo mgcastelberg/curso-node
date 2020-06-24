@@ -27,3 +27,11 @@ node app listar --limit 20 --base 4   ó  node app listar -l 20 -b 4
 
 //Para iniciar un repositorio
 git init
+git status
+git add .
+git commit -m "Commentario"
+
+//DATOS DE GIT HUB
+//push an existing repository from the command line
+git remote add origin https://github.com/mgcastelberg/curso-node.git
+git push -u origin master
