@@ -1,0 +1,29 @@
+git clone https://manuxdark@bitbucket.org/manuxdark/node.git
+git remote add origin https://manuxdark@bitbucket.org/manuxdark/node.git
+git push -u origin master
+
+npm install -g nodemon
+nodemon -v
+
+node -h   ó  node -help
+//Init Para generar el package.json
+npm init
+
+//Para instalar agregar las dependencias necesarias nodemodules
+npm install
+
+//Para instalar localmente dentro del proyecto nodemon
+npm install --save-dev nodemon
+
+//Si se requiere desinstalar nodemon o un paquete
+npm uninstall nodemon
+
+//Cambiar colores a la consola
+npm install colors --save
+
+//Comandos para crear y listar tablas de multiplicar en consola
+node app crear --limit 33 --base 3    ó  node app crear -l 33 -b 3  
+node app listar --limit 20 --base 4   ó  node app listar -l 20 -b 4
+
+//Para iniciar un repositorio
+git init
