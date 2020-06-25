@@ -2,6 +2,12 @@ git clone https://manuxdark@bitbucket.org/manuxdark/node.git
 git remote add origin https://manuxdark@bitbucket.org/manuxdark/node.git
 git push -u origin master
 
+git config --global user.name "Manuel"
+git config --global user.email mgcastelberg@hotmail.com
+//Confirmar cambios
+git config --list
+
+
 npm install -g nodemon
 nodemon -v
 
