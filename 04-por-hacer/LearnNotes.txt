@@ -1,0 +1,12 @@
+//Comando para definir Package.json
+npm init
+//Comando para instalar Yargs y Colors (Yargs sirve para definir y organizar tareas)
+npm install --save yargs colors
+//Ejecutar app.js que se creo
+node app
+//Ejecutamos comando yargs (-d Descripcion "bla...")
+node app crear -d "Pasear al perro"
+//Ejecutamos comando yargs
+node app listar
+//Ejecutamos app mas argv yargs
+node app actualizar -d "Pasear al perro" -c true
